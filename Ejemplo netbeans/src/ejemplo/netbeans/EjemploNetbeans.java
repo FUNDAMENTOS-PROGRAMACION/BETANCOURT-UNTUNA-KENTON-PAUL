@@ -22,15 +22,31 @@ String cadena = "Holaa";
 boolean valor = true;
 boolean valores = false;
 //cambiar variable
-valores = true
+//valores = true
+
+
+        
+public static void imprimirNombre (){
+System.out.println("Kenton");}
+//sumar
+public static int suma2numeros (int num1, int num2){
+int suma = num1 + num2;
+//final de todo
+return suma;
+}
+
 
 
         
     public static void main(String[] args) {
         // TODO code application logic here
+        imprimirNombre();
+        suma2numeros(3,2);
+        System.out.println(suma2numeros(3,2));}
+        
     }
     
-}
+
 //comentario
 
 
