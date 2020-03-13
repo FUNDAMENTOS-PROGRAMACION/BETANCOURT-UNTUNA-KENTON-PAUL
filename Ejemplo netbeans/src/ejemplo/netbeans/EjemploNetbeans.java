@@ -27,7 +27,21 @@ boolean valores = false;
 
         
 public static void imprimirNombre (){
-System.out.println("Kenton");}
+//System.out.println("Kenton \n Betancourt");
+//System.out.println("Kenton  Betancourt");
+String nombre = "Kent";
+
+
+
+//System.out.println(nombre.replace(nombre,"Andres"));
+System.out.println(nombre.split(""));
+System.out.println(nombre.toLowerCase());
+
+
+}
+
+
+
 //sumar
 public static int suma2numeros (int num1, int num2){
 int suma = num1 + num2;
@@ -37,15 +51,43 @@ return suma;
 
 
 
+
+
         
     public static void main(String[] args) {
         // TODO code application logic here
         imprimirNombre();
-        suma2numeros(3,2);
-        System.out.println(suma2numeros(3,2));}
+        //suma2numeros(3,2);
+        //System.out.println(suma2numeros(3,2));}
+//si cumple
+int opcion = 1;
+if(opcion == 2){
+System.out.
+println("es verdadero son iguales");
+}else {
+System.out.
+println("es falso no lo son");
+}
+switch (opcion){
+case 1
+System.out.
+println("caso 1");
+//parar de ejecutar
+break:
+case 2
+System.out.
+println("caso 2");
+//parar de ejecutar
+break:
+default
+System.out.
+println("caso no existe");
+}
+
+
         
     }
-    
+   } 
 
 //comentario
 
