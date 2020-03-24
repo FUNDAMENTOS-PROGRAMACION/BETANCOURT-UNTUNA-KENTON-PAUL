@@ -68,24 +68,26 @@ println("es verdadero son iguales");
 System.out.
 println("es falso no lo son");
 }
-switch (opcion){
-case 1
+//switch (opcion){
+//case 1
 System.out.
 println("caso 1");
 //parar de ejecutar
-break:
-case 2
+//break:
+//case 2
 System.out.
 println("caso 2");
 //parar de ejecutar
-break:
-default
+//break:
+//default
 System.out.
 println("caso no existe");
 }
 
 
-        
+
+
+      
     }
    } 
 
